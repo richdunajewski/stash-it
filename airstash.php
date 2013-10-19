@@ -122,7 +122,7 @@ Class AirstashUpload
     }
 
 
-    protected function find_all_files($dir)
+    public function find_all_files($dir)
     {
         $root = scandir($dir);
         foreach ($root as $value)
